@@ -17,6 +17,7 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="menu-icon">&#9776;</div>
         </nav>
     </header>
 
@@ -39,7 +40,7 @@
             <div class="about-text">
                 <h2>About Me</h2>
                 <p>
-                    I'm <strong>Yog Golakiya</strong>, a skilled full-stack developer with 3+ years of experience in building scalable web applications. My passion for coding extends from front-end development to back-end engineering.
+                    I'm <strong>Yog Golakiya</strong>, An aspiring full-stack developer with a strong foundation in web development. I am passionate about coding and constantly learning new technologies to build scalable and efficient web applications. I enjoy working on both front-end and back-end development, aiming to apply my skills in real-world projects.
                 </p>
                 <a href="cv-1.pdf" class="btn-secondary">Download Resume</a>
             </div>
@@ -49,97 +50,105 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container fadeIn">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card zoomIn">
-                    <h3>Project 1</h3>
-                    <p>A description of the project, emphasizing technologies and impact.</p>
-                </div>
-                <div class="project-card zoomIn">
-                    <h3>Project 2</h3>
-                    <p>A description of the project, emphasizing technologies and impact.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-<!-- Skills Section -->
-<section id="skills">
+<!-- Projects Section -->
+<section id="projects">
     <div class="container fadeIn">
-        <h2>Skills</h2>
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1 - E-commerce Website (MERN Stack) -->
+            <div class="project-card zoomIn" style="background-image: url(''); background-size: cover; background-position: center;">
+                <h3>E-commerce Shopping Website (MERN Stack)</h3>
+                <p >An e-commerce platform built using MongoDB, Express.js, React.js, and Node.js (MERN Stack). It features user authentication, product listing, shopping cart, and order management.</p>
+                <a href="https://best-buy-04.vercel.app/" target="_blank" class="btn-primary">Live Demo</a>
+                <a href="https://github.com/YogGolakiya/BestBuy-backend.git" target="_blank" class="btn-secondary">View Code</a>
+            </div>
+
+            <!-- Project 2 - Coffee Website (React, Firebase) -->
+            <div class="project-card zoomIn" style="background-image: url(''); background-size: cover; background-position: center;">
+                <h3>Coffee Website (React & Firebase)</h3>
+                <p>A sleek and modern website for a coffee business, built using React and Firebase. It features a user-friendly design, real-time data updates, and Firebase authentication.</p>
+                <a href="https://vi-cafe-b963a.web.app" target="_blank" class="btn-primary">Live Demo</a>
+                <a href="https://github.com/YogGolakiya/Cafe-shop.git" target="_blank" class="btn-secondary">View Code</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="skills">
+    <div class="container">
+        <h2>My Skills</h2>
         <div class="skills-grid">
             <div class="skills-left">
                 <div class="skill-item">
-                    <h3>HTML</h3>
+                    <span>HTML</span>
                     <div class="skill-bar">
-                        <div class="skill-level html"></div>
+                        <div class="skill-level html" data-skill="100"></div> <!-- Added data attribute -->
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>CSS</h3>
+                    <span>CSS</span>
                     <div class="skill-bar">
-                        <div class="skill-level css"></div>
+                        <div class="skill-level css" data-skill="95"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>JavaScript</h3>
+                    <span>JavaScript</span>
                     <div class="skill-bar">
-                        <div class="skill-level js"></div>
+                        <div class="skill-level js" data-skill="90"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>React.js</h3>
+                    <span>React</span>
                     <div class="skill-bar">
-                        <div class="skill-level react" style="width: 75%;"></div>
+                        <div class="skill-level react" data-skill="85"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>Angular.js</h3>
+                    <span>Angular</span>
                     <div class="skill-bar">
-                        <div class="skill-level angular" style="width: 70%;"></div>
+                        <div class="skill-level angular" data-skill="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-level node" data-skill="90"></div>
                     </div>
                 </div>
             </div>
-
             <div class="skills-right">
+                
                 <div class="skill-item">
-                    <h3>Node.js</h3>
+                    <span>MongoDB</span>
                     <div class="skill-bar">
-                        <div class="skill-level node" style="width: 80%;"></div>
+                        <div class="skill-level mongodb" data-skill="90"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>Java</h3>
+                    <span>NoSQL</span>
                     <div class="skill-bar">
-                        <div class="skill-level java" style="width: 60%;"></div>
+                        <div class="skill-level nosql" data-skill="75"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>Python</h3>
+                    <span>Python</span>
                     <div class="skill-bar">
-                        <div class="skill-level python" style="width: 65%;"></div>
+                        <div class="skill-level python" data-skill="70"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>PHP</h3>
+                    <span>PHP</span>
                     <div class="skill-bar">
-                        <div class="skill-level php" style="width: 70%;"></div>
+                        <div class="skill-level php" data-skill="75"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <h3>NoSQL</h3>
+                    <span>Java</span>
                     <div class="skill-bar">
-                        <div class="skill-level nosql" style="width: 75%;"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <h3>MongoDB</h3>
-                    <div class="skill-bar">
-                        <div class="skill-level mongodb" style="width: 70%;"></div>
+                        <div class="skill-level java" data-skill="80"></div>
                     </div>
                 </div>
             </div>
@@ -148,14 +157,15 @@
 </section>
 
 
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="container fadeIn">
             <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+            <form action="https://formspree.io/f/mwpkprlo" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn-primary">Send Message</button>
             </form>
         </div>
@@ -173,7 +183,7 @@
         if (index < typingText.length) {
             typingElement.textContent += typingText.charAt(index);
             index++;
-            setTimeout(type, 250); // Adjust typing speed here (150ms)
+            setTimeout(type, 300); // Adjust typing speed here (150ms)
         } else {
             typingElement.style.borderRight = "none"; // Remove the cursor after typing
         }
@@ -181,6 +191,35 @@
 
     // Start typing effect on load
     window.onload = type;
+</script>
+<script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navLinks = document.querySelector('.nav-links');
+  
+    menuIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+  </script>
+  <script>
+   document.addEventListener("DOMContentLoaded", function () {
+    const skillLevels = document.querySelectorAll('.skill-level');
+    skillLevels.forEach(skill => {
+        const skillValue = skill.getAttribute('data-skill'); // Get skill value from data attribute
+        skill.style.width = `${skillValue}%`; // Set width to the specified percentage
+    });
+});
+
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const skillLevels = document.querySelectorAll('.skill-level');
+
+    skillLevels.forEach(skill => {
+        const skillValue = skill.getAttribute('data-skill'); // Get skill value from data attribute
+        skill.style.width = `${skillValue}%`; // Set width to the specified percentage
+    });
+});
+
 </script>
 
 </body>
