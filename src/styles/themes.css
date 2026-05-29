@@ -1,0 +1,131 @@
+/* ─── BASE / EARTHY (default) ─── */
+:root,
+[data-theme="earthy"] {
+  --bg:        #f5f0e8;
+  --bg2:       #ede6d6;
+  --bg3:       #e4dbc8;
+  --surface:   rgba(255,255,255,0.72);
+  --border:    rgba(92,61,46,.13);
+  --border2:   rgba(92,61,46,.22);
+  --text:      #2c2416;
+  --sub:       #6b5a4a;
+  --muted:     #9a8878;
+  --a1:        #c9913d;
+  --a2:        #5c7a5e;
+  --a3:        #4a9bbe;
+  --a4:        #c0614f;
+  --a1t:       rgba(201,145,61,.14);
+  --a2t:       rgba(92,122,94,.14);
+  --a3t:       rgba(74,155,190,.14);
+  --a4t:       rgba(192,97,79,.14);
+  --btn:       #2c2416;
+  --btnt:      #f5f0e8;
+  --nav-bg:    rgba(245,240,232,.93);
+  --card:      rgba(255,255,255,.75);
+  --loader-bg: #2c2416;
+  --loader-fg: #f5f0e8;
+}
+
+[data-theme="sage"] {
+  --bg:        #eef3ee;
+  --bg2:       #dde8dd;
+  --bg3:       #ccdccc;
+  --surface:   rgba(255,255,255,0.72);
+  --border:    rgba(60,90,60,.12);
+  --border2:   rgba(60,90,60,.22);
+  --text:      #1e3020;
+  --sub:       #4a6a4e;
+  --muted:     #7a9a7e;
+  --a1:        #5c7a5e;
+  --a2:        #3a8a6e;
+  --a3:        #6aaa5e;
+  --a4:        #8ab85e;
+  --a1t:       rgba(92,122,94,.14);
+  --a2t:       rgba(58,138,110,.14);
+  --a3t:       rgba(106,170,94,.14);
+  --a4t:       rgba(138,184,94,.14);
+  --btn:       #1e3020;
+  --btnt:      #eef3ee;
+  --nav-bg:    rgba(238,243,238,.93);
+  --card:      rgba(255,255,255,.75);
+  --loader-bg: #1e3020;
+  --loader-fg: #eef3ee;
+}
+
+[data-theme="sky"] {
+  --bg:        #e8f4f8;
+  --bg2:       #d4eaf4;
+  --bg3:       #c0e0f0;
+  --surface:   rgba(255,255,255,0.72);
+  --border:    rgba(30,80,120,.10);
+  --border2:   rgba(30,80,120,.20);
+  --text:      #0f2a3a;
+  --sub:       #3a6a8a;
+  --muted:     #6a9aba;
+  --a1:        #4a9bbe;
+  --a2:        #2a7aae;
+  --a3:        #5ab8d4;
+  --a4:        #3a5a9e;
+  --a1t:       rgba(74,155,190,.14);
+  --a2t:       rgba(42,122,174,.14);
+  --a3t:       rgba(90,184,212,.14);
+  --a4t:       rgba(58,90,158,.14);
+  --btn:       #0f2a3a;
+  --btnt:      #e8f4f8;
+  --nav-bg:    rgba(232,244,248,.93);
+  --card:      rgba(255,255,255,.75);
+  --loader-bg: #0f2a3a;
+  --loader-fg: #e8f4f8;
+}
+
+[data-theme="dusk"] {
+  --bg:        #1a1520;
+  --bg2:       #221c2e;
+  --bg3:       #2a2238;
+  --surface:   rgba(255,255,255,0.06);
+  --border:    rgba(180,150,220,.10);
+  --border2:   rgba(180,150,220,.18);
+  --text:      #e8e0f4;
+  --sub:       #9a90b8;
+  --muted:     #6a6088;
+  --a1:        #b87aee;
+  --a2:        #7a5ab8;
+  --a3:        #e8a0d8;
+  --a4:        #f0b060;
+  --a1t:       rgba(184,122,238,.14);
+  --a2t:       rgba(122,90,184,.14);
+  --a3t:       rgba(232,160,216,.14);
+  --a4t:       rgba(240,176,96,.14);
+  --btn:       #b87aee;
+  --btnt:      #1a1520;
+  --nav-bg:    rgba(26,21,32,.93);
+  --card:      rgba(255,255,255,.05);
+  --loader-bg: #1a1520;
+  --loader-fg: #e8e0f4;
+}
+
+[data-theme="crimson"] {
+  --bg:        #0f0a0a;
+  --bg2:       #160d0d;
+  --bg3:       #1e1212;
+  --surface:   rgba(255,255,255,0.05);
+  --border:    rgba(232,58,58,.10);
+  --border2:   rgba(232,58,58,.18);
+  --text:      #f5e8e8;
+  --sub:       #c09090;
+  --muted:     #885858;
+  --a1:        #e83a3a;
+  --a2:        #c02020;
+  --a3:        #ff6b6b;
+  --a4:        #f0a030;
+  --a1t:       rgba(232,58,58,.14);
+  --a2t:       rgba(192,32,32,.14);
+  --a3t:       rgba(255,107,107,.14);
+  --a4t:       rgba(240,160,48,.14);
+  --btn:       #e83a3a;
+  --btnt:      #0f0a0a;
+  --nav-bg:    rgba(15,10,10,.93);
+  --card:      rgba(255,255,255,.05);
+  --loader-bg: #0f0a0a;
+  --loader-fg: #f5e8e8;
+}
