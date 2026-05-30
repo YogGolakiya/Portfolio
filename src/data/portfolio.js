@@ -15,7 +15,7 @@ export const STATS = [
   { n: '2+',  l: 'Years coding'    },
   { n: '6+',  l: 'Projects shipped' },
   { n: '3',   l: 'Live client sites' },
-  { n: 'MSc', l: 'In progress'     },
+  { n: 'MSc', l: 'Pursuing'     },
 ]
 
 export const SKILLS = [
@@ -124,7 +124,7 @@ export const EDUCATION = [
     school:  'University of Wollongong in Dubai (UOWD)',
     period:  'April 2026 – Present',
     color:   'a3',
-    status:  'In Progress',
+    status:  'Pursuing',
   },
   {
     degree:  'Bachelor of Computer Application (B.C.A)',

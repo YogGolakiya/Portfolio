@@ -44,7 +44,7 @@ AI & Automation: Claude AI, GPT-4o, LangChain, n8n, Watson AI Studio, HuggingFac
 • Predictive Data Pipeline — IBM Cloud/Watson AI/Python/Pinecone, academic R&D
 
 ━━━ EDUCATION ━━━
-• MSc Digital Transformation — UOWD Dubai, Apr 2026–Present (In Progress)
+• MSc Digital Transformation — UOWD Dubai, Apr 2026–Present (Pursuing)
 • BCA Computer Application — Veer Narmad South Gujarat University, 2020–2023
 
 ━━━ FIT & AVAILABILITY ━━━
